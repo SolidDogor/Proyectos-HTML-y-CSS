@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Calistoga';
+    src: url('Calistoga-Regular.woff2') format('woff2'),
+        url('Calistoga-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Elsie Swash Caps';
+    src: url('ElsieSwashCaps-Regular.woff2') format('woff2'),
+        url('ElsieSwashCaps-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Elsie';
+    src: url('ElsieBlack-Regular.woff2') format('woff2'),
+        url('ElsieBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Elsie Swash Caps';
+    src: url('ElsieSwashCapsBlack-Regular.woff2') format('woff2'),
+        url('ElsieSwashCapsBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Elsie';
+    src: url('Elsie-Regular.woff2') format('woff2'),
+        url('Elsie-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

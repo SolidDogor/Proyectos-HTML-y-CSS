@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Castiloga-Regular';
+    src: url('Fuentes/Castiloga-Regular.woff2') format('woff2'),
+         url('fuentes/Castiloga-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Elsie-Regular';
+    src: url(Fuentes/Elsie-Regular.woff2) format('woff2'),
+         url(Fuentes/Elsie-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar la fuente */
+.parrafo-personalizado-uno {
+    font-family: 'Castiloga-Regular', sans-serif;
+}
+
+.parrafo-personalizado-dos {
+    font-family: 'Elsie-Regular', serif;
+}
