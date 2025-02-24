@@ -1,0 +1,22 @@
+body
+{
+    margin: 0px;
+}
+
+#contenido
+{
+    border-width: 50px;
+    border-bottom: solid;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+}
+
+nav ul li
+{
+    float: left;
+    margin-right: 200px;
+}

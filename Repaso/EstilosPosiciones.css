@@ -1,0 +1,17 @@
+#contenido
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color: blue;
+    height: 700px;
+}
+
+.div_prueba
+{
+    background-color: rgb(83, 65, 65);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}

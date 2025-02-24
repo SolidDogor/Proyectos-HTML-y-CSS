@@ -1,0 +1,13 @@
+body
+{
+    background-image: url(xdxdddd.png) , url(ss_02.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center, left top;
+    background-size: 250px, 100%;
+}
+
+.space
+{
+    color: white;
+    height: 800px;
+}

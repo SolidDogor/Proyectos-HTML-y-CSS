@@ -1,0 +1,25 @@
+.padre
+{
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 110px;
+}
+
+.padre:hover .hijo
+{
+    clip-path: circle(150% at center top);
+}
+
+.hijo
+{
+    color: blue;
+    background-color: red;
+    position: absolute;
+
+    top: 100%;
+    right: 0%;
+
+    clip-path: circle(0% at top center);
+    transition: .5s clip-path;
+}
