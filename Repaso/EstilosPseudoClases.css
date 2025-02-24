@@ -1,0 +1,49 @@
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: red;
+}
+
+a:visited
+{
+    color: blue;
+}
+
+a:hover
+{
+    background-color: aquamarine;
+}
+
+input:focus
+{
+    background-color: bisque;
+    color: gray;
+}
+
+input:hover 
+{
+    background-color: gray;
+    color: bisque;
+}
+
+ul li:first-child
+{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:last-child
+{
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li:nth-child(2)
+{
+    background-color: darkslategray;
+}

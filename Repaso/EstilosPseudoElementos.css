@@ -1,0 +1,30 @@
+ul li
+{
+    list-style-type: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul li::before
+{
+    content: url(gamba.jpg);
+    height: 12px;
+}
+
+ul li::after
+{
+    content: url(gamba.jpg);
+}
+
+p::first-letter
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+p::first-line
+{
+    color: gray;
+    text-decoration: dashed;
+}

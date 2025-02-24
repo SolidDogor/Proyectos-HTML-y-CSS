@@ -1,0 +1,29 @@
+* {
+    color: red;
+}
+
+li {
+    color: blue;
+}
+
+.textoImportante {
+    color: black;
+}
+
+#pz {
+    font-family: arial;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+a:active {
+    background-color: red;
+    color: yellow;
+}

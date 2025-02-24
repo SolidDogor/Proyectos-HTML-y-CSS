@@ -1,0 +1,7 @@
+.prueba
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transform: rotate(14deg);
+}

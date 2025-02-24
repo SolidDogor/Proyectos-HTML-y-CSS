@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fae8e8;
+}
+
+:root {
+    --bordeOpciones: 2px transparent black;
+    --bordeOpcionesEncima: 2px solid rgb(148, 64, 64);
+}
+
+h1 {
+    color: rgb(148, 64, 64);
+}
+
+a:any-link{
+    color: rgb(148, 64, 64);
+    text-decoration: none;
+    background-color: #f9f9f9;
+}
+
+a:any-link:hover {
+    color:rgb(170, 63, 63);
+    border: var(--bordeOpcionesEncima);
+    background-color: #f0e0e0;
+}
+
+.opciones {  
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 8vh;
+    color: rgb(148, 64, 64);
+    background-color: #d1c3c3;
+    display: flex;
+    align-items: center;
+    justify-content: end; /* Centra el contenido en el contenedor */
+    gap: 20px; /* Espacio uniforme entre cada opción */
+    z-index: 1;
+    border-bottom: 1px solid #b1aaaa;
+}
+
+.inicio, .menu, .nuestraHistoria, .contacto {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: var(--bordeOpciones);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.inicio:hover, .menu:hover, .nuestraHistoria:hover, .contacto:hover {
+    transform: scale(1.05); /* Efecto de ampliación en hover */
+    background-color: #f0e0e0; /* Cambia ligeramente el color de fondo al pasar el mouse */
+}
+
+#inicioBody {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    margin-top: 8vh; /* Espacio para el menú fijo */
+}
+
+.izquierda {
+    width: 70%;
+    padding: 20px;
+    border-right: 2px solid #d1c3c3; /* Línea divisoria */
+}
+
+.derecha {
+    width: 30%;
+    padding: 20px;
+}
+
+.justificado{
+    text-align: justify;
+    font-size: 21px;
+}
+
+.imagenesCentradas {
+    display: block;
+    margin: auto;
+}
+
+.texto-con-imagen {
+    position: relative; /* Necesario para posicionar la imagen flotante */
+    display: inline-block;
+}
+
+.imagen-flotante {
+    display: none; /* Oculta la imagen inicialmente */
+    position: absolute;
+    top: 100%; /* Ubica la imagen justo debajo del texto */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    padding: 5px;
+    background-color: #d1c3c3;
+    border: 1px solid rgb(148, 64, 64);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Asegura que esté sobre otros elementos */
+}
+
+.texto:hover + .imagen-flotante {
+    display: block; /* Muestra la imagen al pasar el mouse sobre el texto */
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.formulario-contacto button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: rgb(148, 64, 64);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.formulario-contacto button:hover {
+    background-color: rgb(170, 63, 63);
+}
+
+.info-contacto {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.info-contacto ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.info-contacto ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: var(--bordeOpciones);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.info-contacto ul li:hover {
+    transform: scale(1.05); /* Efecto de ampliación en hover */
+    background-color: #f0e0e0; /* Cambia ligeramente el color de fondo al pasar el mouse */
+}

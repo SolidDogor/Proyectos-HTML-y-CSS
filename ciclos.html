@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var contador = 0;
+        // while(contador < 3){
+        //     alert("Valor: " + contador);
+        //     contador++;
+        // }
+
+        // do{
+        //     alert("Valor: " + contador);
+        //     contador++;
+        // }while(contador < 3)
+        
+        // var sumatoria = 0;
+        // var contador = 0;
+        // debugger;
+        // while(contador <= 10){
+        //     sumatoria += contador;
+        //     contador++;
+        // }
+        // alert(sumatoria);
+
+        var sumatoria = 0;
+        for (var i = 0; i < 10; i++){
+            if(i % 2 == 0){
+                alert(i + " es par, si se ha sumado.");
+                sumatoria += i;
+            } else {
+                alert(i + " es impar, no se ha sumado.");
+            }
+        }
+        alert("Suma final: " + sumatoria);
+
+    </script>
+</body>
+</html>

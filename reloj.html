@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="reloj" style="font-family: sans-serif;
+    font-size: 3em; color: red;">10:15:20</div>
+    <script>
+        setInterval(() => {
+            var reloj = document.getElementsByClassName("reloj")[0];
+            var tiempoActual = new Date();
+            if(tiempoActual.getSeconds()<10){
+                var horaActual = tiempoActual.getHours() + ":" + tiempoActual.getMinutes() + ":0" + tiempoActual.getSeconds();
+            }else{
+                var horaActual = tiempoActual.getHours() + ":" + tiempoActual.getMinutes() + ":" + tiempoActual.getSeconds();
+            }
+            reloj.innerHTML = horaActual;
+        }, 1000)
+    </script>
+</body>
+</html>

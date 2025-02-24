@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<body>
+
+    <label>Nombre: </label><input id="txtNombre" type="text"/>
+    <label>Apellido: </label><input id="txtApellido" type="text"/>
+    <label>Teléfono: </label><input id="txtTeléfono" type="text"/>
+    <label>Gmail: </label><input id="txtGmail" type="text"/>
+    <button id="btnAgregar">Agregar</button><br/>
+
+    <div id="listado">
+
+    </div>
+
+    <script>
+        window.onload = iniciar;
+
+        var personas = [];
+
+        function iniciar(){
+            var btnAgregar = document.getElementById("btnAgregar");
+            btnAgregar.addEventListener("click", clickBtnAgregar);
+        }
+
+        function clickBtnAgregar(){
+            var nombre = document.getElementById("txtNombre").value;
+            var apellido = document.getElementById("txtApellido").value;
+            var teléfono= document.getElementById("txtTeléfono").value;
+            var gmail = document.getElementById("txtGmail").value;
+                        
+            var persona = {
+                "nombre": nombre,
+                "apellido": apellido,
+                "teléfono": teléfono,
+                "gmail": gmail
+            }
+            personas.push(persona);
+            mostrarPersonas();
+            debugger;
+        }
+
+        function mostrarPersonas(){
+            var listado = document.getElementById("listado");
+            var html = "";
+            for(var persona of personas){
+                html += persona.nombre + ' ' + persona.apellido + ' ' + persona.teléfono + ' ' 
+                + persona.gmail + '<br/>';   
+            } 
+            listado.innerHTML = html;
+        }
+
+    </script>
+</body>
+</html>

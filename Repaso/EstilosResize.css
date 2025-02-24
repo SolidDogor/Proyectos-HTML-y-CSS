@@ -1,0 +1,18 @@
+.tamaño
+{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    resize: both;
+    border: solid;
+}
+
+.tamaño-audio
+{
+    height: 300px;
+    width: 70%;
+    overflow: hidden;
+    resize: both;
+    border: solid;
+
+}
