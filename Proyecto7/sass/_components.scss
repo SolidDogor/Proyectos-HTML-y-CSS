@@ -1,0 +1,17 @@
+$color-main: #0075FF;
+
+.btn-main{
+    background-color: var($color-main);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+
+    
+
+    &-s {
+        @extend .btn-main;
+        font-size: 0.75rem;
+        padding: 0.1rem 1rem;
+    }
+}
