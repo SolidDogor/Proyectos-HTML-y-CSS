@@ -1,0 +1,18 @@
+.contenedor{
+    display: grid;
+    gap: 0.5rem;
+    /* column-gap: 0.1rem;
+    row-gap: 1rem; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: repeat(3,auto); */
+    /* grid-template-columns: 20px 3rem 25vw; */
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.item{
+    background-color: cyan;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid 1px blue;
+}

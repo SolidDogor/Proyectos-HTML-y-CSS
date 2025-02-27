@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: space-around;
+    align-items: first baseline;
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+}
+
+.item2{
+    align-self: stretch;
+}

@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all and (max-width: 576px) */
+/* @media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+@media (min-width: 576px){
+    h1{
+        color: green;
+    }
+}
+
+@media (min-width: 995px){
+    h1{
+        color: blue;
+    }
+}
