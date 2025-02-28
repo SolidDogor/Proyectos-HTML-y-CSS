@@ -1,0 +1,11 @@
+.btn-main, .btn-main-s {
+  background-color: var(#0075FF);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}/*# sourceMappingURL=index.css.map */
